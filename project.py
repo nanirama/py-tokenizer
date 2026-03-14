@@ -43,11 +43,11 @@ show_tokens False None elif == >= else: two tabs:"    " Three tabs: "       "
 """
 
 # Optional - bert-base-uncased
-# show_tokens(text, "bert-base-cased")
-# # GPT-4
-# show_tokens(text, "Xenova/gpt-4")
-# # gpt2
-# show_tokens(text, "gpt2")
+show_tokens(text, "bert-base-cased")
+# GPT-4
+show_tokens(text, "Xenova/gpt-4")
+# gpt2
+show_tokens(text, "gpt2")
 # Flan-T5-small
 show_tokens(text, "google/flan-t5-small")
 # Starcoder 2 - 15B
